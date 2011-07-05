@@ -16,7 +16,8 @@
   </div>
 
   <div class="footerContent">
-    <p>&copy; <?php bloginfo('name'); ?> | <a href="http://jimbarraud.com/manifest/">Manifest</a> by <a href="http://jimbarraud.com/">Jim Barraud</a></p>
+    <li><?php bloginfo('name'); ?></li>
+    <li><a href="http://jimbarraud.com/manifest/">Manifest</a> by <a href="http://jimbarraud.com/">Jim Barraud</a></li>
   </div>
 
 </div>

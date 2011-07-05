@@ -961,11 +961,16 @@ ul#recentPosts li {
   clear: left;
   margin-bottom: 15px;
 }
-#footer .footerContent {
+#footer .footerContent li {
   width: 500px;
-  margin: 20px auto 0;
   clear: left;
+  display: inline;
+  padding: 0 8px 0 0;
+  margin: 0 5px 0 0;
+  border-right: 1px dotted #ccc;
+  font-size: 1.2em;
 }
+
 #footer p {
   line-height: 1.4em;
 }
