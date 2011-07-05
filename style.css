@@ -82,10 +82,13 @@ a:visited {
   color: #9C8A6A;
   text-decoration: none;
 }
-a:hover,
+a:hover {
+  color: white;
+  background-color: gray;
+}
 a:active {
-  color: #3E372B;
-  text-decoration: underline;
+  /*color: #3E372B;
+  text-decoration: underline;*/
 }
 
 /* Headers */
@@ -181,6 +184,13 @@ textarea:focus {
   position: relative;
   
 }
+#siteWrapper a:link {
+  text-decoration: none;
+}
+#siteWrapper a:hover {
+  color: white;
+  background-color: gray;
+}
 #siteDescription {
   font-size: 1.2em;
   margin: 10px auto 60px;
@@ -214,15 +224,24 @@ textarea:focus {
 #mainNav li:last-child {
   margin-right: 0;
 }
-#mainNav a:link,
+#mainNav a:link {
+  text-decoration: none;
+  border-color: #2E301C;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  padding: 3px 0px 2px 0px;
+  background-color: inherit;
+}
 #mainNav a:visited {
   color: #999;
   white-space: nowrap;
 }
-#mainNav a:hover,
+#mainNav a:hover {
+  color: white;
+  background-color: gray;
+}
 #mainNav a:active {
-  text-decoration: underline;
-  color: #2E301C;
+  /* color: #f2f2f2; */
 }
 #mainNav .current_page_parent a:link,
 #mainNav .current_page_parent a:visited,
@@ -335,9 +354,14 @@ textarea:focus {
   margin-top: 24px;
   text-align: left;
 }
-.entry-content a:link,
+.entry-content a:link {
+  text-decoration: none;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  padding: 3px 0px 2px 0px;
+}
 .entry-content a:visited {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .hentry {
   position: relative;

@@ -13,7 +13,8 @@
       <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" />
       <input type="submit" id="searchsubmit" value="Search" /> 
     </form>
-    
+
+    <br>    
     <p>&copy; <?php bloginfo('name'); ?> | <a href="http://jimbarraud.com/manifest/">Manifest</a> by <a href="http://jimbarraud.com/">Jim Barraud</a></p>
   </div>
 
