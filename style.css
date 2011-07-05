@@ -77,7 +77,15 @@ strong {
 
 /* Links */
 
-a:link,
+a:link {
+  text-decoration: none;
+  color: #ddd;
+  border-color: #888;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  padding: 3px 0px 2px 0px;
+  background-color: inherit;
+}
 a:visited {
   color: #9C8A6A;
   text-decoration: none;
@@ -145,7 +153,7 @@ h5 {
   border-bottom: 1px solid #ddd;
   background: transparent;
 }
-h5 abbr{
+h5 abbr {
   display: inline-block;
   position: relative;
   margin: 0 auto;
@@ -173,7 +181,7 @@ textarea:focus {
 
 /* Structure */
 
-#siteWrapper{
+#siteWrapper {
   margin: 0 auto;
   padding-top: 15px;
   width: 500px;
@@ -181,7 +189,7 @@ textarea:focus {
   position: relative;
   
 }
-#siteDescription{
+#siteDescription {
   font-size: 1.2em;
   margin: 10px auto 60px;
   width: 400px;
@@ -193,99 +201,100 @@ textarea:focus {
 /* Main Navigation
 -------------------------------------------------------------------*/
 
-#mainNav{
+#mainNav {
   margin-top: 10px;
   padding: 5px;
   background: transparent;
   border-top: 1px solid #EAEAEA;
   border-bottom: 1px solid #EAEAEA;
 }
-#mainNav ul{
+#mainNav ul {
   margin: 0 auto;
   width: 45em;
   text-align: center;
 }
-#mainNav li{
+#mainNav li {
   display: inline;
   margin-right: 20px;
   font-size: 1.5em;
   text-transform: uppercase;
 }
-#mainNav li:last-child{
+#mainNav li:last-child {
   margin-right: 0;
 }
 #mainNav a:link,
-#mainNav a:visited{
+#mainNav a:visited {
   color: #999;
   white-space: nowrap;
 }
 #mainNav a:hover,
-#mainNav a:active{
+#mainNav a:active {
   text-decoration: underline;
   color: #2E301C;
 }
 #mainNav .current_page_parent a:link,
 #mainNav .current_page_parent a:visited,
 #mainNav .current_page_item a:link,
-#mainNav .current_page_item a:visited{
+#mainNav .current_page_item a:visited {
   font-weight: bold;
   color: #2A2D1A;
 }
 #mainNav .current_page_parent a:hover,
 #mainNav .current_page_parent a:active,
 #mainNav .current_page_item a:hover,
-#mainNav .current_page_item a:active{
+#mainNav .current_page_item a:active {
   color: #2E301C;
 }
 
 /* Sub Navigation
 -------------------------------------------------------------------*/
 
-#subNav{
+#subNav {
   padding: 5px 3px 3px;
   border-bottom: 1px solid #F4F4F4;
 }
-#subNav ul{
+#subNav ul {
   margin: 0 auto;
   width: 45em;
   text-align: center;
 }
-#subNav li{
+#subNav li {
   display: inline;
   margin-right: 20px;
   font-size: 1.2em;
   text-transform: uppercase;
 }
-#subNav li:last-child{
+#subNav li:last-child {
   margin-right: 0;
 }
 #subNav a:link,
-#subNav a:visited{
+#subNav a:visited {
   color: #999;
   white-space: nowrap;
 }
 #subNav a:hover,
-#subNav a:active{
+#subNav a:active {
   text-decoration: underline;
   color: #2E301C;
 }
 #subNav .current_page_parent a:link,
 #subNav .current_page_parent a:visited,
 #subNav .current_page_item a:link,
-#subNav .current_page_item a:visited{
+#subNav .current_page_item a:visited {
   font-weight: bold;
   color: #2A2D1A;
 }
 #subNav .current_page_parent a:hover,
 #subNav .current_page_parent a:active,
 #subNav .current_page_item a:hover,
-#subNav .current_page_item a:active{
+#subNav .current_page_item a:active {
   color: #2E301C;
 }
+
 /* Main Content Body
 -------------------------------------------------------------------*/
 
-#coreContent{
+#coreContent {
   float: left;
   width: 500px;
   margin-top: 8px;
@@ -294,10 +303,10 @@ textarea:focus {
 /* Posts
 -------------------------------------------------------------------*/
 
-.postContent{
+.postContent {
   position: relative;
 }
-.postContent h4{
+.postContent h4 {
   position: relative;
   top: 0;
   font-family: constantia, palatino, times new roman;
@@ -307,60 +316,60 @@ textarea:focus {
   font-style: italic;
   border-bottom: none;
 }
-.postDate ~ .postContent{
+.postDate ~ .postContent {
   margin-top: -30px;
 }
 #coreContent p,
 #coreContent li,
-#coreContent dd{
+#coreContent dd {
   margin-bottom: 1.7em;
   font-size: 1.4em;
   line-height: 1.5em;
   color: #333;
   text-align: justify;
 }
-#coreContent p{
+#coreContent p {
   text-align: justify;
 }
-#coreContent li{
+#coreContent li {
   list-style: square;
   margin-left: 17px;
 }
-#coreContent dt{
+#coreContent dt {
   font-size: 1.3em;
   color: #333;
 }
-.entry-content{
+.entry-content {
   margin-top: 24px;
   text-align: left;
 }
 .entry-content a:link,
-.entry-content a:visited{
+.entry-content a:visited {
   text-decoration: underline;
 }
-.hentry{
+.hentry {
   position: relative;
   padding-bottom: 37px;
   border-bottom: 1px dotted #ddd;
   margin-bottom: 30px;
 }
-#coreContent .postMeta{
+#coreContent .postMeta {
   margin: 40px auto 0;
   font-size: 1.3em;
   color: #999;
 }
-#coreContent .postMeta div{
+#coreContent .postMeta div {
   margin-bottom: 5px;
 }
 #coreContent .postMeta a:link,
-#coreContent .postMeta a:visited{
+#coreContent .postMeta a:visited {
   color: #666;
 }
 #coreContent .postMeta a:hover,
-#coreContent .postMeta a:active{
+#coreContent .postMeta a:active {
   color: #666;
 }
-#coreContent .postMeta span{
+#coreContent .postMeta span {
   text-transform: uppercase;
 }
 .entry-content h1,
@@ -368,7 +377,7 @@ textarea:focus {
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
-.entry-content h6{
+.entry-content h6 {
   color: #333;
   border: none;
   padding: 0;
@@ -379,41 +388,41 @@ textarea:focus {
   position: static;
 }
 
-.entry-content h1{
+.entry-content h1 {
   font-size: 2em;
   letter-spacing: 0;
 }
-.entry-content h2{
+.entry-content h2 {
   font-size: 1.8em;
 }
-.entry-content h3{
+.entry-content h3 {
   font-size: 1.6em;
 }
 .entry-content h4,
 .entry-content h5,
-.entry-content h6{
+.entry-content h6 {
   font-size: 1.4em;
 }
-.entry-content strong{
+.entry-content strong {
   color: #000;
 }
-.entry-content pre{
+.entry-content pre {
   color: #666;
   font-size: 1.5em;
   line-height: 18px;
   margin-bottom: 15px;
 }
 .entry-content ul,
-.entry-content ol{
+.entry-content ol {
   margin: 0 0 20px 15px;
 }
-.entry-content ol li{
+.entry-content ol li {
   list-style-type: decimal !important;
 }
-.entry-content li{
+.entry-content li {
   margin-bottom: 5px !important;
 }
-.entry-content blockquote{
+.entry-content blockquote {
   font-size: 1.4em;
   font-style: italic;
   line-height: 1.5em;
@@ -422,51 +431,51 @@ textarea:focus {
   padding-left: 10px;
   border-left: 3px solid #ccc;
 }
-#coreContent .entry-content blockquote p{
+#coreContent .entry-content blockquote p {
   font-size: 1.1em;
   line-height: 1.3em;
   color: #7D7D7D;
 }
-.entry-content .alignleft{
+.entry-content .alignleft {
   float: left;
   margin: 4px 10px 10px 0;
 }
-.entry-content .alignright{
+.entry-content .alignright {
   float: right;
   margin: 4px 0 10px 10px;
 }
-.entry-content .wp-caption.alignnone{
+.entry-content .wp-caption.alignnone {
   margin-bottom: 15px;
 }
-#coreContent .entry-content p.wp-caption-text{
+#coreContent .entry-content p.wp-caption-text {
   font-size: 1.1em;
   font-style: italic;
   color: #666;
   margin-bottom: 0;
 }
-.hentry img{
+.hentry img {
   margin: 0 auto;
   border: 1px solid #ccc;
 }
-.share a{
+.share a {
   display: inline-block;
   padding: 2px 0 2px 19px;
 }
-.share_twitter{
+.share_twitter {
   background: url(images/twitter_16.png) no-repeat;
 }
-.share_facebook{
+.share_facebook {
   background: url(images/facebook_16.png) no-repeat;
 }
 
 /* Single Post Page
 -------------------------------------------------------------------*/
 
-.single h3{
+.single h3 {
   margin-top: 30px;
   margin-bottom: 5px;
 }
-.single h5{
+.single h5 {
   position: static;
   font-family: "helvetica neue", helvetica, arial;
   font-size: 1.2em;
@@ -475,13 +484,13 @@ textarea:focus {
   border-bottom: none;
   background: transparent;
 }
-.single.hentry{
+.single.hentry {
   border-top: 1px solid #efefef;
   margin-top: -50px;
   border-bottom: none;
   padding-bottom: 0;
 }
-#coreContent .single .postMeta{
+#coreContent .single .postMeta {
   margin: 20px 0 0;
   padding-top: 0;
   padding-bottom: 17px;
@@ -491,122 +500,122 @@ textarea:focus {
 /* Links Page
 -------------------------------------------------------------------*/
 
-#coreContent .entry-content #linkList{
+#coreContent .entry-content #linkList {
   margin-left: 0;
 }
-#coreContent .entry-content #linkList li{
+#coreContent .entry-content #linkList li {
   list-style-type: none;
   margin-left: 0;
 }
-#coreContent .entry-content #linkList li li{
+#coreContent .entry-content #linkList li li {
   font-size: .9em;
   list-style-type: square;
   margin-bottom: 20px !important;
   margin-left: 15px;
 }
-#coreContent .entry-content #linkList ul{
+#coreContent .entry-content #linkList ul {
   margin: 10px 0 40px;
 }
 
 /* Comments
 -------------------------------------------------------------------*/
 
-.comment{
+.comment {
   padding: 0 0 25px 0;
   margin-top: 25px;
   border-bottom: 1px solid #ccc;
 }
-.children .comment{
+.children .comment {
   border-bottom: none;
   margin-top: 0;
   padding-bottom: 0;
 }
-#coreContent #comments li{
+#coreContent #comments li {
   font-size: inherit;
   list-style: none;
   margin-left: 0;
   padding-left: 58px;
   position: relative;
 }
-#coreContent .comment p{
+#coreContent .comment p {
   color: #666;
 }
-#coreContent .comment .says{
+#coreContent .comment .says {
   display: none;
 }
-.avatar{
+.avatar {
   position: absolute;
   left: 0;
 }
-#coreContent .comment-body{
+#coreContent .comment-body {
   padding-right: 10px;
   padding-bottom: 10px;
 }
-#coreContent #comments .comment .leaveComment{
+#coreContent #comments .comment .leaveComment {
   border-top: 1px dotted #ccc;
 }
-#coreContent #comments .comment .children li{
+#coreContent #comments .comment .children li {
   padding: 10px 0 0 52px;
   margin: 5px 0 0;
 }
-#coreContent #comments .comment .children li .comment-body{
+#coreContent #comments .comment .children li .comment-body {
   margin-left: -52px;
   padding: 10px 10px 10px 52px;
   background: transparent;
   border-left: 2px solid #ccc;
 }
-#coreContent #comments .comment .children li #respond{
+#coreContent #comments .comment .children li #respond {
   background: #F2F2F2 url(images/commentReply.gif) no-repeat;
 }
-#coreContent #comments .comment .children li .leaveComment{
+#coreContent #comments .comment .children li .leaveComment {
   
   background: url(images/commentBottom.png) repeat-x left bottom;
 }
-#coreContent #comments .comment .children li.depth-3 .comment-body{
+#coreContent #comments .comment .children li.depth-3 .comment-body {
   background-color: #F6F6F6;
   border-left: 2px solid #ccc;
 }
-#coreContent #comments .comment .children li.depth-3 #respond{
+#coreContent #comments .comment .children li.depth-3 #respond {
   background-color: #F6F6F6;
 }
-#coreContent #comments .comment .children li.depth-4 .comment-body{
+#coreContent #comments .comment .children li.depth-4 .comment-body {
   background-color: #F9F9F9;
   border-left: 2px solid #ccc;
 }
-#coreContent #comments .comment .children li.depth-4 #respond{
+#coreContent #comments .comment .children li.depth-4 #respond {
   background-color: #F9F9F9;
 }
-#coreContent #comments .comment .children li.depth-5 .comment-body{
+#coreContent #comments .comment .children li.depth-5 .comment-body {
   background-color: #FcFcFc;
 }
-#coreContent #comments .comment .children li.depth-5 #respond{
+#coreContent #comments .comment .children li.depth-5 #respond {
   background-color: #FcFcFc;
 }
-#coreContent #comments .comment .children li .avatar{
+#coreContent #comments .comment .children li .avatar {
   left: 10px;
   width: 32px;
   height: 32px;
   
 }
-#cancel-comment-reply{
+#cancel-comment-reply {
   margin-top: 15px;
   text-transform: capitalize;
   float: left;
 }
-.comment-reply-link{
+.comment-reply-link {
   display: block;
   padding-left: 13px;
   background: url(images/icon_reply.png) no-repeat left 2px;
 }
-.comment-author{
+.comment-author {
   font-size: 1.4em;
   margin-bottom: 10px;
 }
-.comment-author cite{
+.comment-author cite {
   font-style: normal;
   font-weight: bold;
 }
-.comment-meta{
+.comment-meta {
   position: absolute;
   right: 10px;
   font-size: 1.2em;
@@ -614,20 +623,20 @@ textarea:focus {
   top: 0px;
   
 }
-#coreContent #comments .comment .children .comment-meta{
+#coreContent #comments .comment .children .comment-meta {
   top: 20px;
 }
-.comment .reply{
+.comment .reply {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 1.1em;
 }
-.commentContent{
+.commentContent {
   float: left;
   width: 415px;
   margin-left: 22px;
 }
-.nocomments{
+.nocomments {
   font-size: 1.2em;
   padding: 25px 0;
   border-top: 1px solid #ccc;
@@ -636,12 +645,12 @@ textarea:focus {
 
 /* Comment Form */
 
-fieldset{
+fieldset {
   position: relative;
   padding: 0 0 10px;
 
 }
-legend{
+legend {
   position: relative;
   display: block;
   font-size: 1.4em;
@@ -650,24 +659,24 @@ legend{
   margin: 0;
   padding: 0 0 4px 0;
 }
-legend span{
+legend span {
   position: relative;
   top: -15px;
   display: block;
 }
-#comments h3{
+#comments h3 {
   font-size: 1.4em;
 }
 
 #comments h3,
-legend span{
+legend span {
   border-bottom: 1px solid #ccc;
   padding: 0 0 .7em;
   font-weight: bold;
   text-align: left;
   width: 500px;
 }
-.comment legend span{
+.comment legend span {
   border: none;
   padding: .5em 0 .7em;
   font-weight: bold;
@@ -677,103 +686,102 @@ legend span{
   width: auto;
 }
 
-
-.leaveComment{
+.leaveComment {
   padding: 8px 0 19px;
   
 }
-#coreContent #comments .comment.depth-1 fieldset{
+#coreContent #comments .comment.depth-1 fieldset {
   padding-right: 10px;
   padding-left: 54px;
 }
-#coreContent #comments .comment .children fieldset{
+#coreContent #comments .comment .children fieldset {
   padding-right: 10px;
   padding-left: 54px;
 }
-.commentAuthorInfo{
+.commentAuthorInfo {
   float: left;
   width: 230px;
   margin-right: 20px;
 }
-#coreContent #comments .comment .commentAuthorInfo{
+#coreContent #comments .comment .commentAuthorInfo {
   float: none;
   width: auto;
   margin-right: 0;
   
 }
-.commentForm{
+.commentForm {
   font-size: 1.1em;
   text-align: left;
   text-transform: uppercase;
   margin: 0;
 }
-.commentForm em{
+.commentForm em {
   text-transform: lowercase;
   font-style: italic;
   color: #999;
   font-size: 1em;
 }
-.commentForm input[type=text]{
+.commentForm input[type=text] {
   display: block;
   margin-bottom: 15px;
   width: 220px;
   font-size: 1.2em;
 }
 #coreContent #comments .comment .commentForm input[type=text],
-#coreContent #comments .comment .commentForm textarea{
+#coreContent #comments .comment .commentForm textarea {
   width: 100%;
   max-width: 500px;
 }
-.commentForm textarea{
+.commentForm textarea {
   width: 242px;
   max-width: 242px; /* Restricts the resizing capability in webkit bases browsers */
   height: 121px;
   font-size: 1.2em;
 }
-.commentForm textarea.loggedIn{
+.commentForm textarea.loggedIn {
   width: 500px;
   max-width: 500px; /* Restricts the resizing capability in webkit bases browsers */
 }
-.commentForm input[type=submit]{
+.commentForm input[type=submit] {
   float: right;
   margin-top: 8px;
 }
-.comment #respond{
+.comment #respond {
   margin-left: -52px; /* Shift inline comment box to accomodate for gravatar */
 }
 
 /* Image Gallery
 -------------------------------------------------------------------- */
 
-#galleryNav{
+#galleryNav {
   background: url(images/galleryNav_bg.png) no-repeat;
   width: 258px;
   height: 90px;
   margin: 20px auto 0;
 }
-#galleryNav_controls{
+#galleryNav_controls {
   width: 140px;
   margin: 0 auto;
   padding: 12px 0;
   position: relative;
 }
 #galleryNav_prev,
-#galleryNav_next{
+#galleryNav_next {
   position: absolute;
   width: 60px;
   height: 60px;
   -moz-box-shadow: 0 0 5px #999;
   -webkit-box-shadow: 0 0 5px #999;
 }
-#galleryNav_prev{
+#galleryNav_prev {
   left: 0;
   margin-right: 10px;
 }
-#galleryNav_next{
+#galleryNav_next {
   right: 0;
 }
 .galleryNav_prevArrow,
-.galleryNav_nextArrow{
+.galleryNav_nextArrow {
   position: absolute;
   top: 0;
   left: 0;
@@ -781,18 +789,18 @@ legend span{
   height: 60px;
   cursor: pointer;
 }
-.galleryNav_prevArrow{
+.galleryNav_prevArrow {
   background: url(images/galleryNav_prev.png) no-repeat 50% 50%;
 }
-.galleryNav_nextArrow{
+.galleryNav_nextArrow {
   background: url(images/galleryNav_next.png) no-repeat 50% 50%;
 }
-.galleryNav_return{
+.galleryNav_return {
   display: inline-block;
   margin-top: 5px;
   font-size: 1.3em;
 }
-.galleryImage{
+.galleryImage {
   text-align: center;
 }
 
@@ -800,7 +808,7 @@ legend span{
 /* Paging Navigation
 -------------------------------------------------------------------- */
 
-.pageNav{
+.pageNav {
   margin-top: 40px;
 }
 .pageNav a:link,
@@ -808,31 +816,31 @@ legend span{
   font-size: 1.5em;
 }
 .pageNav .prev,
-.pageNav .next{
+.pageNav .next {
   display: block;
 }
-.pageNav .prev{
+.pageNav .prev {
   float: left;
 }
-.pageNav .next{
+.pageNav .next {
   float: right;
 }
 
 /* Archives
 -------------------------------------------------------------------- */
 
-#archives{
+#archives {
   margin-top: -50px;
 }
-h2.archiveTitle{
+h2.archiveTitle {
   margin: -30px 0 70px;
   color: #666;
 }
-h2.archiveTitle strong{
+h2.archiveTitle strong {
   color: #000;
 }
 #archives h3,
-#coreContent li h3{
+#coreContent li h3 {
   font-family: constantia, palatino, times new roman;
   font-size: 1.6em;
   text-align: left;
@@ -842,30 +850,30 @@ h2.archiveTitle strong{
   margin: 0 0 5px;
   border-bottom: 1px solid #ccc;
 }
-#coreContent li h3{
+#coreContent li h3 {
   font-size: 1.2em;
 }
-#archives label{
+#archives label {
   font-family: constantia, palatino, times new roman;
   font-size: 1.4em;
   color: #333;
   font-weight: normal;
   text-transform: uppercase;
 }
-#archives #date{
+#archives #date {
   float: left;
   width: 235px;
 }
-#archives #cattags{
+#archives #cattags {
   float: left;
   width: 235px;
   margin-left: 30px;
 }
-#archives ul{
+#archives ul {
   margin: 5px 0 60px;
   text-align: left;
 }
-#archives ul li{
+#archives ul li {
   display: inline-block;
   margin: 0 5px 5px 0;
   color: #999;
@@ -873,24 +881,24 @@ h2.archiveTitle strong{
   line-height: 1.5em;
   white-space: nowrap;
 }
-#archives li a{
+#archives li a {
   margin-right: 5px;
 }
-#archives #date ul li{
+#archives #date ul li {
   display: block;
   list-style-type: none;
   border-bottom: 1px solid #efefef;
   margin: 0;
 }
-#archives #date ul li a{
+#archives #date ul li a {
   display: inline-block;
   min-width: 210px;
 }
-.tagArchives li{
+.tagArchives li {
   float: left;
   margin-right: 10px;
 }
-.categories li{
+.categories li {
   margin-bottom: 5px;
   font-size: 2.3em;
 }
@@ -898,41 +906,41 @@ h2.archiveTitle strong{
 /* Recent Posts (on the 404 page)
 -------------------------------------------------------------------- */
 
-ul#recentPosts li{
+ul#recentPosts li {
   list-style: none;
   margin: 0;
   padding: 5px 0;
   border-bottom: 1px solid #efefef;
   display: block;
 }
-#recentPosts a{
+#recentPosts a {
   float: left;
   font-size: 1.1em;
 }
-#recentPosts .postDate{
+#recentPosts .postDate {
   float: right;
 }
 
 /* Search Results
 -------------------------------------------------------------------- */
 
-#coreContent.searchresults{
+#coreContent.searchresults {
   margin-top: -35px;
 }
-.searchresults .postMeta{
+.searchresults .postMeta {
   text-align: left;
 }
-.searchpanel{
+.searchpanel {
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
   margin: 0 0 40px;
   padding: 10px 0;
 }
-.searchpanel input[type=text]{
+.searchpanel input[type=text] {
   width: 250px;
   font-size: 1.7em;
 }
-.searchpanel input[type=submit]{
+.searchpanel input[type=submit] {
   font-weight: normal;
   -webkit-border-radius: 12px;
   -moz-border-radius: 16px;
@@ -944,7 +952,7 @@ ul#recentPosts li{
 /* Footer
 -------------------------------------------------------------------- */
 
-#footer{
+#footer {
   width: 500px;
   margin: 40px auto 0;
   padding: 20px 0 35px 0;
@@ -952,18 +960,18 @@ ul#recentPosts li{
   color: #666;
   text-align: center;
 }
-.footerContent{
+.footerContent {
   width: 500px;
   margin: 20px auto 0;
   clear: left;
 }
-#footer p{
+#footer p {
   line-height: 1.4em;
 }
-#footer #search{
+#footer #search {
   margin: 15px 0 30px;
 }
-#footer h5{
+#footer h5 {
   position: relative;
   top: 0;
   margin-bottom: 8px;
@@ -974,33 +982,33 @@ ul#recentPosts li{
   text-transform: uppercase;
   border-bottom: none;
 }
-#footer .elsewhere{
+#footer .elsewhere {
   margin-bottom: 30px;
 }
-#footer .elsewhere li{
+#footer .elsewhere li {
   display: inline;
   padding: 0 8px 0 0;
   margin: 0 5px 0 0;
   border-right: 1px dotted #ccc;
   font-size: 1.2em;
 }
-#footer .elsewhere li:last-child{
+#footer .elsewhere li:last-child {
   padding: 0;
   margin: 0;
   border-right: none;
 }
-#footer #search input[type=text]{
+#footer #search input[type=text] {
   font-size: 1.4em;
   border-color: #ccc;
 }
-#footer #search input[type=text]:focus{
+#footer #search input[type=text]:focus {
   border-color: #999;
 }
 
 /* Google Ad
 -------------------------------------------------------------------- */
 
-.googleAd{
+.googleAd {
   margin-bottom: 40px;
   padding-top: 40px;
   border-top: 1px dotted #ccc;
@@ -1014,12 +1022,12 @@ ul#recentPosts li{
 a.post-edit-link:link,
 a.post-edit-link:visited,
 a.comment-edit-link:link,
-a.comment-edit-link:visited{
+a.comment-edit-link:visited {
   color: #f00;
   font-weight: bold;
   text-decoration: underline;
 }
-#coreContent p.loggedin{
+#coreContent p.loggedin {
   font-size: 1.1em;
   padding: 0;
 }
@@ -1040,7 +1048,7 @@ a.comment-edit-link:visited{
 #coreContent .postMeta:after,
 #recentPosts li:after,
 #galleryNav:after,
-#galleryNav_controls:after{
+#galleryNav_controls:after {
   content: "."; 
   display: block; 
   height: 0; 
