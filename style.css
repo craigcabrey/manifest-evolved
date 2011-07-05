@@ -150,7 +150,7 @@ h5 abbr{
   position: relative;
   margin: 0 auto;
   padding: 0 8px;
-  background: transparent;
+  background: url('images/bkg.png');
   top: 8px;
 }
 
