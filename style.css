@@ -87,8 +87,6 @@ a:hover {
   background-color: gray;
 }
 a:active {
-  /*color: #3E372B;
-  text-decoration: underline;*/
 }
 
 /* Headers */
@@ -186,6 +184,7 @@ textarea:focus {
 }
 #siteWrapper a:link {
   text-decoration: none;
+  padding: 3px 0px 2px 0px;
 }
 #siteWrapper a:hover {
   color: white;
@@ -226,18 +225,17 @@ textarea:focus {
 }
 #mainNav a:link {
   text-decoration: none;
-  border-color: #2E301C;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
   padding: 3px 0px 2px 0px;
   background-color: inherit;
 }
-#mainNav a:hover {
+#mainNav a:hover {i
+  border-color: gray;
   color: white;
   background-color: gray;
 }
 #mainNav a:active {
-  /* color: #f2f2f2; */
 }
 #mainNav .current_page_parent a:link,
 #mainNav .current_page_parent a:visited,
@@ -358,12 +356,6 @@ textarea:focus {
 }
 .entry-content a:visited {
   /*text-decoration: underline;*/
-}
-.hentry {
-  position: relative;
-  padding-bottom: 0px;
-  border-bottom: 1px dotted #ddd;
-  margin-bottom: 10px;
 }
 #coreContent .postMeta {
   margin: 40px auto 0;
@@ -814,7 +806,6 @@ legend span {
 -------------------------------------------------------------------- */
 
 .pageNav {
-  margin-top: 40px;
 }
 .pageNav a:link,
 .pageNav a:visited {
