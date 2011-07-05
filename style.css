@@ -193,7 +193,7 @@ textarea:focus {
 }
 #siteDescription {
   font-size: 1.2em;
-  margin: 10px auto 60px;
+  margin: 10px auto 30px;
   width: 400px;
   padding: 11px 0 13px;
   color: #999;
@@ -231,10 +231,6 @@ textarea:focus {
   border-style: none none solid none;
   padding: 3px 0px 2px 0px;
   background-color: inherit;
-}
-#mainNav a:visited {
-  color: #999;
-  white-space: nowrap;
 }
 #mainNav a:hover {
   color: white;
@@ -328,7 +324,7 @@ textarea:focus {
   border-bottom: none;
 }
 .postDate ~ .postContent {
-  margin-top: -30px;
+  margin-top: -60px;
 }
 #coreContent p,
 #coreContent li,
@@ -365,9 +361,9 @@ textarea:focus {
 }
 .hentry {
   position: relative;
-  padding-bottom: 37px;
+  padding-bottom: 0px;
   border-bottom: 1px dotted #ddd;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #coreContent .postMeta {
   margin: 40px auto 0;
@@ -377,14 +373,7 @@ textarea:focus {
 #coreContent .postMeta div {
   margin-bottom: 5px;
 }
-#coreContent .postMeta a:link,
-#coreContent .postMeta a:visited {
-  color: #666;
-}
-#coreContent .postMeta a:hover,
-#coreContent .postMeta a:active {
-  color: #666;
-}
+
 #coreContent .postMeta span {
   text-transform: uppercase;
 }
