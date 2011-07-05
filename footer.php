@@ -15,10 +15,10 @@
     </form>
   </div>
 
-  <div class="footerContent">
-    <li><?php bloginfo('name'); ?></li>
+  <ul class="footerContent">
+    <li>&copy; <?php bloginfo('name'); ?></li>
     <li><a href="http://jimbarraud.com/manifest/">Manifest</a> by <a href="http://jimbarraud.com/">Jim Barraud</a></li>
-  </div>
+  </ul>
 
 </div>
 
