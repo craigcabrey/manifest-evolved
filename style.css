@@ -235,20 +235,17 @@ textarea:focus {
   color: white;
   background-color: gray;
 }
-#mainNav a:active {
-}
 #mainNav .current_page_parent a:link,
 #mainNav .current_page_parent a:visited,
 #mainNav .current_page_item a:link,
 #mainNav .current_page_item a:visited {
-  font-weight: bold;
   color: #2A2D1A;
 }
 #mainNav .current_page_parent a:hover,
 #mainNav .current_page_parent a:active,
 #mainNav .current_page_item a:hover,
 #mainNav .current_page_item a:active {
-  color: #2E301C;
+  color: white;
 }
 
 /* Sub Navigation
