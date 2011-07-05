@@ -20,9 +20,9 @@
           $arc_day = get_the_time('d');
           ?>
         
-          <div class="postDate"><span>Published:</span> <abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO'); ?>"><a href="<?php echo get_day_link("$arc_year", "$arc_month", 
+          <div class="postDate"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO'); ?>"><a href="<?php echo get_day_link("$arc_year", "$arc_month", 
           "$arc_day"); ?>"><?php the_time('F j, Y'); ?></a></abbr></div>
-        	<div class="categories"><span>Filed Under:</span> <?php the_category(', '); ?></div>
+        	<div class="categories"><span>Under:</span> <?php the_category(', '); ?></div>
         	<?php the_tags('<span>Tags:</span> ', ' : ', ''); ?>
         	
         	
