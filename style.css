@@ -970,13 +970,18 @@ ul#recentPosts li {
 
 #footer {
   width: 500px;
-  margin: 40px auto 0;
-  padding: 20px 0 35px 0;
+  margin: 20px auto 0;
+  padding: 15px 0 35px 0;
   border-top: 1px solid #ccc;
   color: #666;
   text-align: center;
 }
-.footerContent {
+#footer .footerSearch {
+  width: 500px;
+  clear: left;
+  margin-bottom: 15px;
+}
+#footer .footerContent {
   width: 500px;
   margin: 20px auto 0;
   clear: left;
@@ -999,7 +1004,7 @@ ul#recentPosts li {
   border-bottom: none;
 }
 #footer .elsewhere {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 #footer .elsewhere li {
   display: inline;
