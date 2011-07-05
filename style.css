@@ -77,6 +77,9 @@ strong {
 
 /* Links */
 
+a {
+  text-decoration: none;
+}
 a:link {
   text-decoration: none;
   color: #ddd;
@@ -87,10 +90,19 @@ a:link {
   background-color: inherit;
 }
 a:visited {
-  color: #9C8A6A;
-  text-decoration: none;
+  color: #ddd;
+  border-color: #999;
+  border-width: 0 0 1px 0;
+  border-style: none none dotted none;
+  padding: 3px 0px 2px 0px;
+  background-color: inherit;
 }
-a:hover,
+a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #606870;
+  border-color: #606870;
+}
 a:active {
   color: #3E372B;
   text-decoration: underline;
