@@ -978,10 +978,11 @@ ul#recentPosts li {
 }
 #footer .footerSearch {
   width: 500px;
+  //margin: 20px auto 0;
   clear: left;
   margin-bottom: 15px;
 }
-#footer .footerContent {
+#footer footerContent {
   width: 500px;
   margin: 20px auto 0;
   clear: left;
