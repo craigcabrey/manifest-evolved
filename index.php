@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <div id="coreContent" class="hfeed">
-      
+
     	<?php if (have_posts()) : ?>
 
     		<?php while (have_posts()) : the_post(); ?>
@@ -18,22 +18,16 @@
 
           </div>
         </div>
+
         <div class="postMeta">
-        
-        <?php if ('closed' == $post->comment_status) : ?>
-
-          <div class="comments closed">
-
-         	<?php else : ?>
-        
-          <div class="comments">
-        
-          <?php endif; ?>
-
-            <?php comments_popup_link('leave a comment', '1 comment', '% comments', '', 'comments closed'); ?>
-          </div>
+          <?php if ('closed' == $post->comment_status) : ?>
+            <div class="comments closed">
+              <?php else : ?>
+              <div class="comments">
+                <?php endif; ?>
+              </div>
+            </div>
         </div>
-      </div>
 
 		<?php endwhile; ?>
 
