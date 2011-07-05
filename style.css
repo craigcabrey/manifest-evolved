@@ -193,7 +193,7 @@ textarea:focus {
 }
 #siteDescription {
   font-size: 1.2em;
-  margin: 10px auto 60px;
+  margin: 10px auto 30px;
   width: 400px;
   padding: 11px 0 13px;
   color: #999;
@@ -328,7 +328,7 @@ textarea:focus {
   border-bottom: none;
 }
 .postDate ~ .postContent {
-  margin-top: -30px;
+  margin-top: -60px;
 }
 #coreContent p,
 #coreContent li,
@@ -365,7 +365,7 @@ textarea:focus {
 }
 .hentry {
   position: relative;
-  padding-bottom: 37px;
+  padding-bottom: 0px;
   border-bottom: 1px dotted #ddd;
   margin-bottom: 10px;
 }
