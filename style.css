@@ -377,14 +377,7 @@ textarea:focus {
 #coreContent .postMeta div {
   margin-bottom: 5px;
 }
-#coreContent .postMeta a:link,
-#coreContent .postMeta a:visited {
-  color: #666;
-}
-#coreContent .postMeta a:hover,
-#coreContent .postMeta a:active {
-  color: #666;
-}
+
 #coreContent .postMeta span {
   text-transform: uppercase;
 }
