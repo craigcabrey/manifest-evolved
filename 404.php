@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
   <div id="coreContent">
-
     <div class="post hentry single">
       <div class="postContent">
         <h2 class="entry-title">404 - Page Not Found</h2>
@@ -17,7 +16,11 @@
       <?php while (have_posts()) : the_post(); ?>
         <li>
           <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
-          <div class="postDate"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php the_date('F j, Y') ?></abbr></div>
+          <div class="postDate">
+            <abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>">
+              <?php the_date('F j, Y') ?>
+            </abbr>
+          </div>
         </li>
       <?php endwhile; ?>
     </ul>
